@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Aditi Patel</h1>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+    </header>
+    <nav id="side-menu" class="side-menu">
+        <a href="#" class="close-btn">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Achievements</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section class="introduction">
+            <h2>Hello Folks! 👋</h2>
+            <p>Hey there! I'm <strong>Aditi Patel</strong>, a passionate Computer Engineering 👩‍💻 graduate from Vishwakarma Government Engineering College. 🎓</p>
+            <p>Throughout my academic journey 📖, I've immersed myself in core computer science subjects like Data Structures and Algorithms, Object-Oriented Programming, DBMS, and Operating Systems 🖊️.  My enthusiasm for learning led me to participate and excel in hackathons and competitions 🎯, where my team achieved recognition as one of India's top 10 teams in the prestigious Samsung Solve for Tomorrow competition. I also clinched second place in a hackathon organized by Ahmedabad University. 🏆</p>
+            <p>Outside the classroom 🏛️, I've honed my leadership skills as the <em>Management Lead</em> for the Google Developer Student Club and served as the <em>Design Co-Lead</em> for the IEEE VGEC Student Branch. ✨ These experiences have strengthened my ability to collaborate effectively and drive impactful projects. 🚀</p>
+            <p>Let's connect and make things happen! 🤝💫 </p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me at: <a href="mailto:ampaditipatel@gmail.com">ampaditipatel@gmail.com</a></p>
+    </footer>
+    <script src="{% static 'myapp/js/script.js' %}"></script>
+</body>
+</html>
